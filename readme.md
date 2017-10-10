@@ -1,5 +1,4 @@
-##MVC JavaScript Framework : Front-End Test
-You have 2 days to complete this test.
+
 
 ###Getting started
 
@@ -27,27 +26,6 @@ This is the only task needed. What does it do? Launches a http server @ localhos
 app/sass/*.scss: Compass
 app/assets/js/*.js: browserify with transform [reactify, {es6: true}]
 
-##The task
-
-There are three potential routes for completing this test. Gold, Silver and Bronze.
-
-Choose a single route from the list below ...
-
-- Gold: Complete test using the "React JavaScript Framework”.
-
-- Silver: Complete test using "Advanced JavaScript and any method of your choosing”.
-
-- Bronze: Complete test using a "JavaScript MVC framework of your choice”.
-
-Then, create a working carousel using the data provided within the contents of this GitHub project.
-
-You have total control, so feel free to make any changes to the file structure, tasks etc.
-
-Please see **layout.png** for an idea of what the final should look like. If your feeling creative give it some CSS love.
-
-We will be testing in the latest version of Chrome.
-
-Once you are done, create a git bundle and email back to your reviewer, we will review during a call / face to face.
 
 ###How to create a git bundle
 
