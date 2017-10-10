@@ -1,0 +1,77 @@
+@import 'config/vars';
+@import 'bootstrap/bootstrap';
+
+// Arrow controls left & right
+%controls_extend {
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	color: $color-white;
+	text-align: center;			    
+	background: $color-black;
+	opacity: 0.7;
+	padding-top: 10px;	
+	cursor: pointer;
+}
+
+.carouselSlider {			
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 35px;
+	.carouselWrapper {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: block;		    
+		overflow: hidden;
+		height:100%;
+		width:100%;		    
+	}
+	.carouselInner {
+		position: relative;
+		top: 0;
+		transition: 0.5s;
+		height:100%;
+		display:flex;   
+	}
+	.item{		  	  
+		text-align: center;
+		position: relative;
+		display: inline-block;
+		flex:1;
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-caption{
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		text-align: left;
+		background: $color-black;
+		opacity: 0.7;
+		padding: 0 20px 0 20px;		  	 
+	}	
+	.carousel-indicators li{
+		border-color: $color-black;
+		background-color: $color-black;		
+	}
+	.carousel-indicators{
+		bottom: 0;
+		.active{
+			background-color: $color-white;
+		}
+	}
+	.control-left{		    
+		left: 0;
+		@extend %controls_extend;
+	}
+	.control-right{
+		right: 0;
+		@extend %controls_extend;
+	}
+}
